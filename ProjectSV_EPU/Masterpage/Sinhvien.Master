@@ -14,9 +14,40 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
+        <div class="background">
+            <%--Start main-container--%>
+            <div class="main-container">
+                <div class="main-header">
+                </div>
+                <div class="main-menu">
+                    <ul class="wrap-menu clear-fix">
+                        <li>
+                            <a href="#">Trang chủ</a>
+                        </li>
+                        <li>
+                            <a href="#">Giới thiệu</a>
+                        </li>
+                        <li>
+                            <a href="#">Thông báo</a>
+                        </li>
+                        <li>
+                            <a href="#">Đào tạo</a>
+                        </li>
+                        <li>
+                            <a href="#">Sinh viên cần biết</a>
+                        </li>
+                    </ul>
+                </div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    <div class="main-content">
+
+                    </div>
+                </asp:ContentPlaceHolder>
+                <div class="sidebar">
+
+                </div>
+            </div>
+            <%--End main-container--%>
         </div>
     </form>
 </body>
