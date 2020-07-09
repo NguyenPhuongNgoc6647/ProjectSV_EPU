@@ -100,18 +100,33 @@
     <Content Include="bootstrap-3.3.7-dist\js\bootstrap.js" />
     <Content Include="bootstrap-3.3.7-dist\js\bootstrap.min.js" />
     <Content Include="bootstrap-3.3.7-dist\js\npm.js" />
+    <Content Include="Contentpage\ThongtinSV.aspx" />
     <Content Include="Contentpage\Trangchu.aspx" />
     <Content Include="css\font-awesome-4.7.0\css\font-awesome.css" />
     <Content Include="css\font-awesome-4.7.0\css\font-awesome.min.css" />
     <Content Include="css\font-awesome-4.7.0\fonts\fontawesome-webfont.svg" />
     <Content Include="css\font-awesome-4.7.0\HELP-US-OUT.txt" />
     <Content Include="css\Sinhvien.css" />
+    <Content Include="css\ThongtinSV.css" />
     <Content Include="css\Trangchu.css" />
     <Content Include="img\banner-phongdaotao.jpg" />
     <Content Include="img\evn-logo.png" />
+    <Content Include="img\homnay.png" />
+    <Content Include="img\homqua.png" />
+    <Content Include="img\infoSV.PNG" />
+    <Content Include="img\khach.png" />
+    <Content Include="img\tongcong.png" />
+    <Content Include="js\jstest.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contentpage\ThongtinSV.aspx.designer.vb">
+      <DependentUpon>ThongtinSV.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contentpage\ThongtinSV.aspx.vb">
+      <DependentUpon>ThongtinSV.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Contentpage\Trangchu.aspx.designer.vb">
       <DependentUpon>Trangchu.aspx</DependentUpon>
     </Compile>
@@ -214,9 +229,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="js\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

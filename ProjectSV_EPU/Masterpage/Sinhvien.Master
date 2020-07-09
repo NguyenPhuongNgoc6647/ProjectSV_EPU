@@ -38,18 +38,191 @@
                         </li>
                     </ul>
                 </div>
+                <div class="main-search">
+                    <div class="box-search">
+                        <span class="text-search">Tìm kiếm</span>
+                        <input class="search-content" type="text" name="nd cần tìm" placeholder="Nhập nội dung cần tìm" />
+                        <select class="search-choose">
+                            <option value="danh mục">Tất cả</option>
+                            <option value="danh mục">Giới thiệu</option>
+                            <option value="danh mục">Thông báo</option>
+                            <option value="danh mục">Đào tạo</option>
+                            <option value="danh mục">Sinh viên cần biết</option>
+                            <option value="danh mục">Thông báo</option>
+                            <option value="danh mục">Thanh toán học phí online</option>
+                        </select>
+                        <input class="submit-search" type="submit" name="Tìm kiếm" value="Tìm kiếm" />
+                    </div>
+                </div>
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                     <div class="main-content">
-
                     </div>
                 </asp:ContentPlaceHolder>
-                <div class="sidebar">
-
+                <%--Start main-sidebar--%>
+                <div class="main-sidebar">
+                    <div class="box-login">
+                        <div class="box-login__title">
+                            <span>SINH VIÊN</span>
+                        </div>
+                        <div class="box-login__nd">
+                            <span>Xin chào</span><br />
+                            <span style="color: red; font-weight: bold;">Nguyễn Thị Phương Ngọc</span>
+                            <div class="box-login__nd--btn">
+                                <input type="submit" name="đổi mật khẩu" value="Đổi mật khẩu" />
+                                <input type="submit" name="Đăng xuất" value="Đăng xuất" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-function">
+                        <div class="box-login__title">
+                            <span>CHỨC NĂNG</span>
+                        </div>
+                        <div class="box-login__nd">
+                            <ul class="menuChucnang">
+                                <li>
+                                    <a href="#">Công tác sinh viên</a>
+                                </li>
+                                <li>
+                                    <a href="#">Tra cứu thông tin cố vấn học tập - cán bộ lớp</a>
+                                </li>
+                                <li>
+                                    <a href="#">Thông tin sinh viên</a>
+                                </li>
+                                <li>
+                                    <a href="#">Lưu ý</a>
+                                </li>
+                                <li>
+                                    <a href="#">Thông tin điểm danh</a>
+                                </li>
+                                <li>
+                                    <a href="#">Xem chương trình khung</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sinh viên cần biết</a>
+                                </li>
+                                <li>
+                                    <a href="#">Xem lịch học</a>
+                                </li>
+                                <li>
+                                    <a href="#">Xem lịch thi</a>
+                                </li>
+                                <li>
+                                    <a href="#">Xem lịch theo tuần</a>
+                                </li>
+                                <li>
+                                    <a href="#">Xem danh sách lớp học phần</a>
+                                </li>
+                                <li>
+                                    <a href="#">Đánh giá rèn luyện</a>
+                                </li>
+                                <li>
+                                    <a href="#">Kết quả học tập</a>
+                                </li>
+                                <li>
+                                    <a href="#">Thanh toán học phí online</a>
+                                </li>
+                                <li>
+                                    <a href="#">Tra cứu hóa đơn</a>
+                                </li>
+                                <li>
+                                    <a href="#">Tra cứu công nợ</a>
+                                </li>
+                                <li>
+                                    <a href="#">Danh sách phiếu thu học phí</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="box-function">
+                        <div class="box-login__title">
+                            <span>CHỨC NĂNG TRỰC TUYẾN</span>
+                        </div>
+                        <div class="box-login__nd">
+                            <ul class="menuChucnang">
+                                <li>
+                                    <a href="#">Công tác sinh viên</a>
+                                </li>
+                                <li>
+                                    <a href="#">Tra cứu thông tin cố vấn học tập - cán bộ lớp</a>
+                                </li>
+                                <li>
+                                    <a href="#">Đăng ký nhu cầu</a>
+                                </li>
+                                <li>
+                                    <a href="#">Giới thiệu</a>
+                                </li>
+                                <li>
+                                    <a href="#">Thông báo</a>
+                                </li>
+                                <li>
+                                    <a href="#">Lưu ý</a>
+                                </li>
+                                <li>
+                                    <a href="#">Đào tạo</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sinh viên cần biết</a>
+                                </li>
+                                <li>
+                                    <a href="#">Kết quả học tập</a>
+                                </li>
+                                <li>
+                                    <a href="#">Thanh toán học phí Online</a>
+                                </li>
+                                <li>
+                                    <a href="#">Đăng ký học phần</a>
+                                </li>    
+                                <li>
+                                    <a href="#">Đăng ký thi lại</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                     <div class="box-function">
+                        <div class="box-login__title">
+                            <span>THỐNG KÊ</span>
+                        </div>
+                        <div class="box-login__nd">
+                            <ul class="menuChucnang" id="online">
+                                <li>
+                                    <img src="../img/khach.png" />
+                                    Đang online: <span>198</span>
+                                </li>
+                                <li>
+                                    <img src="../img/homnay.png" />
+                                    Hôm nay:<span>1904</span>
+                                </li>
+                                <li>
+                                    <img src="../img/homqua.png" />
+                                    Hôm qua:<span>28291</span>
+                                </li>
+                                <li>
+                                    <img src="../img/tongcong.png" />
+                                    Tổng cộng:<span>6754437</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
+                <%--End main-sidebar--%>
+
+                <%--Start main-footer--%>
+                <div class="main-footer">
+                    <div class="main-footer__text">
+                        <p>Copyright &copy; 2011 EPU Trường Đại Học Điện Lực - Phòng Đào Tạo - Designed by
+                            <a href="#">EPMT</a><br />
+                            Địa chỉ: 235 Hoàng Quốc Việt, Hà Nội<br />
+                            Điện thoại: Tuyển sinh: 04 2245 2662 , Hành chính Quản trị: 04 2218 5607<br />
+                            Fax: 04 3836 2065<br />
+                        </p>
+                    </div>
+                </div>
+                <%--End main-footer--%>
             </div>
             <%--End main-container--%>
         </div>
     </form>
 </body>
 <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script src="../js/jstest.js"></script>
 </html>

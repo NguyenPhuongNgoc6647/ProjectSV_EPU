@@ -1,0 +1,31 @@
+﻿
+.main-content {
+    border: 1px solid #165975;
+    margin:5px;
+}
+.content__box-title {
+    background-color: #36287d;
+    color: white;
+    text-align: center;
+    line-height:30px;
+    font-weight:bold;
+    font-size:15px;
+}
+.box_mod{
+    padding:5px;
+}
+.wrap-img_masv{
+    float:left;
+}
+.img-info{
+    margin-bottom:20px;
+}
+.wrap-img_masv span {
+    display: block;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
+.tb-infoSV{
+    float:left;
+}

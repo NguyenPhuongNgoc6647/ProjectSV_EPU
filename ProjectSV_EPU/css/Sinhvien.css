@@ -10,9 +10,10 @@ ul,ol{
 a, a:hover{
     text-decoration:none;
 }
-body{
-    font-size:62.5%;
-    font-family:sans-serif;
+body {
+    font-size: 62.5%;
+    /*    font-family:sans-serif;*/
+    font-family: Arial, Helvetica, sans-serif;
 }
 .clear-fix:after{
     content:"";
@@ -21,31 +22,36 @@ body{
 }
 .background {
     width: 100%;
+
     background-color: #96DAF1;
 }
 .main-container {
     width: 960px;
+    min-height: 1000px;
     margin: 0 auto;
     background-color: #F7F9F8;
-    display:grid;
-    grid-template-areas: "header header"    
-                         "menu menu"
-                         "content sidebar"
-                         "footer footer";
+    display: grid;
+    grid-template-areas: "header   header"
+                         "menu     menu"
+                         "search   sidebar"
+                         "content  sidebar" 
+                         "footer   footer";
     grid-template-columns: 760px 200px;
-    grid-template-rows: 167px 30px 1fr 124px;
-
+    grid-template-rows: 167px 30px 43px 1fr 124px;
 }
 .main-content{
     grid-area: content;
 }
-.sidebar{
+.main-sidebar{
     grid-area:sidebar;
 }
+.main-footer{
+    grid-area:footer;
+}
 .main-header {
+    grid-area: header;
     margin: 5px;
     border: 1px solid #165975;
-    grid-area: header;
     background: url(../img/banner-phongdaotao.jpg) no-repeat;
 }
 .main-menu {
@@ -63,4 +69,101 @@ body{
     padding:0 10px;
     font-size:12px;
     text-decoration:none;
+}
+.main-search {
+    grid-area: search;
+    border:1px solid #165975;
+    margin:5px;
+}
+.box-search{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-size:13px;
+}
+.text-search,.search-content, .search-choose, .submit-search{
+    margin:5px;
+}
+.text-search {
+    font-weight: bold;
+    text-transform:uppercase;
+}
+.search-content{
+    flex-grow:2;
+}
+.search-choose{
+    outline:0;
+}
+.submit-search{
+    padding:0 10px;
+}
+
+/*===== main-sidebar =====*/
+.box-login, .box-function {
+    margin: 5px;
+    border: 1px solid #165975;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.box-login__title {
+    background-color: #36287d;
+    color:white;
+    padding:4px 10px;
+}
+.box-login__nd{
+    padding:10px;
+    background-color:white;
+}
+.box-login__nd span {
+    
+}
+.box-login__nd--btn{
+    margin-top:5px;
+}
+.box-login__nd--btn input{
+    color:white;
+    background-color:#ff6715;
+    border:none;
+    outline:0;
+    padding:2px 7px;
+    border-radius:2px;
+}
+.menuChucnang li {
+    border-bottom: 1px dashed #ccc;
+    padding:5px 0;
+}
+.menuChucnang li a{
+    transition:all 0.1s ease;
+}
+.menuChucnang li a:hover{
+    text-decoration:none;
+    color:#FF6715;
+}
+.menuChucnang li a:before{
+    font-family:'FontAwesome';
+    content:"\f101";
+    margin-right:3px;
+}
+#online li{
+    border-bottom:none;
+    padding:2px 0;
+}
+
+/*===== main-footer =====*/
+.main-footer {
+    background-color: #36287D;
+}
+.main-footer__text{
+    margin-top:30px;
+    text-align:center;
+    color:white;
+    font-size:12px;
+}
+.main-footer__text a{
+    color:white;
+    font-weight:bold;
+}
+.main-footer__text a:hover{
+    color:white;
+    text-decoration:underline;
 }
