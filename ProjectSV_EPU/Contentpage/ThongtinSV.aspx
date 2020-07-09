@@ -14,10 +14,10 @@
                 <div class="img-info">
                     <img src="../img/infoSV.PNG" />
                 </div>
-                <span>MSVS: 1781310161</span>
+                <span>MSSV: 1781310161</span>
             </div>
             <div class="tb-infoSV">
-                <table>
+                <table class="table-SV">
                     <tr>
                         <td>
                             <span>Trạng thái:</span>
@@ -35,7 +35,35 @@
                             <span>Mã hồ sơ:</span>
                         </td>
                     </tr>
+                    <tr>
+                        <td>Khóa: 2017</td>
+                        <td>Cơ sở: Cơ sở 1</td>
+                    </tr>
+                    <tr>
+                        <td>Bậc đào tạo: Đại học - Tín chỉ</td>
+                        <td>Loại hình đào tạo: Chính quy</td>
+                    </tr>
+                    <tr>
+                        <td>Ngành: Công nghệ thông tin</td>
+                        <td>Chuyên ngành: Công nghệ phần mềm</td>
+                    </tr>
+                    <tr>
+                        <td>Khoa: Công nghệ thông tin</td>
+                        <td>Lớp: D12CNPM2</td>
+                    </tr>
+                    <tr>
+                        <td>Chức vụ:</td>
+                        <td>Công tác đoàn:</td>
+                    </tr>
                 </table>
+            </div>
+        </div>
+        <div class="content__box-title">
+            <span class="text-tt">THÔNG TIN CÁ NHÂN</span>
+            <div class="update-info">
+                <a href="#">Cập nhật thông tin cá nhân
+                    <img src="../img/edit-notes.png" />
+                </a>
             </div>
         </div>
     </div>

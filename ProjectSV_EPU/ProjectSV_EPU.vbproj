@@ -110,6 +110,7 @@
     <Content Include="css\ThongtinSV.css" />
     <Content Include="css\Trangchu.css" />
     <Content Include="img\banner-phongdaotao.jpg" />
+    <Content Include="img\edit-notes.png" />
     <Content Include="img\evn-logo.png" />
     <Content Include="img\homnay.png" />
     <Content Include="img\homqua.png" />

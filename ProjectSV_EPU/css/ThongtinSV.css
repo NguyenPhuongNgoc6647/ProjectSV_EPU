@@ -18,7 +18,7 @@
     float:left;
 }
 .img-info{
-    margin-bottom:20px;
+    margin-bottom:27px;
 }
 .wrap-img_masv span {
     display: block;
@@ -27,5 +27,32 @@
     text-align: center;
 }
 .tb-infoSV{
+    width:75%;
     float:left;
+    margin-left:20px;
+    font-size:12px;
+}
+.table-SV tr{
+    line-height:33px;
+    
+}
+.table-SV tr td{
+    width:50%;
+    padding:0 15px;
+}
+.text-tt{
+    margin-left:calc(50%-78px);
+}
+.update-info{
+    float:right;
+}
+.update-info>a{
+    font-size:11px;
+    color:white;
+    text-decoration:none;
+    font-weight:lighter;
+}
+.update-info>a>img{
+    width:34px;
+
 }
