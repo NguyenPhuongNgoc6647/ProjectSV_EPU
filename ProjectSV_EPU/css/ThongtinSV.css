@@ -1,6 +1,5 @@
 ﻿
 .main-content {
-    border: 1px solid #165975;
     margin:5px;
 }
 .content__box-title {
@@ -32,19 +31,30 @@
     margin-left:20px;
     font-size:12px;
 }
+.table-SV{
+    text-align:left;
+    margin-bottom:20px;
+}
 .table-SV tr{
     line-height:33px;
-    
 }
 .table-SV tr td{
     width:50%;
-    padding:0 15px;
+    padding:0 35px 0 10px;
+    color:#333;
 }
 .text-tt{
     margin-left:calc(50%-78px);
 }
-.update-info{
-    float:right;
+.content__box-title--wrap{
+    display:flex;
+    justify-content:flex-end;
+}
+.tt_canhan {
+    margin-right: 20%;
+}
+.update-info {
+    float: right;
 }
 .update-info>a{
     font-size:11px;
@@ -54,5 +64,11 @@
 }
 .update-info>a>img{
     width:34px;
-
+}
+.tb-details{
+    width:100%;
+    font-size:12px;
+}
+.main-content--wrap {
+    border: 1px solid #165975;
 }

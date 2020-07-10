@@ -22,19 +22,19 @@
                 <div class="main-menu">
                     <ul class="wrap-menu clear-fix">
                         <li>
-                            <a href="#">Trang chủ</a>
+                            <a href="../Contentpage/Trangchu.aspx">Trang chủ</a>
                         </li>
                         <li>
-                            <a href="#">Giới thiệu</a>
+                            <a href="../Contentpage/GioiThieu.aspx">Giới thiệu</a>
                         </li>
                         <li>
-                            <a href="#">Thông báo</a>
+                            <a href="../Contentpage/ThongBao.aspx">Thông báo</a>
                         </li>
                         <li>
-                            <a href="#">Đào tạo</a>
+                            <a href="../Contentpage/DaoTao.aspx">Đào tạo</a>
                         </li>
                         <li>
-                            <a href="#">Sinh viên cần biết</a>
+                            <a href="../Contentpage/SVCanBiet.aspx">Sinh viên cần biết</a>
                         </li>
                     </ul>
                 </div>

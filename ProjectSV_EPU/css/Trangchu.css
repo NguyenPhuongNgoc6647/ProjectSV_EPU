@@ -1,2 +1,43 @@
-﻿body {
+﻿*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.clear-fix:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.main-notify {
+    border: 1px solid #165975;
+    border-radius: 3px;
+    margin:5px 5px 10px;
+    background-color:white;
+}
+.main-notity>h3{
+    background-color: #36287d;
+}
+.tb-action > li {
+    margin: 10px;
+    padding-bottom:5px;
+    border-bottom: 1px dashed #ccc;
+}
+.date-submit{
+    font-size:10px;
+    color:#666;
+}
+.pagination{
+    float:right;
+    margin:15px 50px 30px 0;
+}
+.pagination>a{
+    border:1px solid #8C8C8C;
+    color:#8C8C8C;
+    padding: 2px 5px;
+    text-decoration:none;
+    font-size:13px;
+}
+.pagination>a:hover{
+    border: solid 1px #267CB2;
+    color:#267CB2;
 }

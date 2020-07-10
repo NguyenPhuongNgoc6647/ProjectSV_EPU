@@ -37,7 +37,7 @@ body {
                          "content  sidebar" 
                          "footer   footer";
     grid-template-columns: 760px 200px;
-    grid-template-rows: 167px 30px 43px 1fr 124px;
+    grid-template-rows: 167px 30px 43px auto 124px;
 }
 .main-content{
     grid-area: content;
@@ -63,12 +63,16 @@ body {
     float:left;
     border-left:1px solid white;
 }
+.wrap-menu li:hover{
+    background-color:#463798;
+}
 .wrap-menu li a{
     color:white;
     line-height:30px;
     padding:0 10px;
     font-size:12px;
     text-decoration:none;
+    display:block;
 }
 .main-search {
     grid-area: search;

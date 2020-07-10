@@ -1,15 +1,14 @@
-﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Masterpage/Sinhvien.Master" CodeBehind="Trangchu.aspx.vb" Inherits="ProjectSV_EPU.Trangchu" %>
-
+﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Masterpage/Sinhvien.Master" CodeBehind="ThongBao.aspx.vb" Inherits="ProjectSV_EPU.ThongBao" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <link href="../css/Trangchu.css" rel="stylesheet" />
-    <div class="main-content">
-        <div class="main-notify clear-fix">
+    <div class="main-content clear-fix">
+        <div class="main-notify">
             <div class="box-login__title">
                 <span>THÔNG BÁO</span>
             </div>
-            <ul class="tb-action">
+             <ul class="tb-action">
                 <li>
                     <a href="#">Thông báo Danh sách [DỰ KIẾN] xét Học bổng HK 1 năm học 2019-2020 <span>
                         <img src="../img/new.gif" /></span></a><br />
@@ -50,24 +49,19 @@
                     <a href="#">Thông báo v/v gia hạn thời gian trông giữ xe đạp, xe máy HK II 2019-2020</a><br />
                     <span class="date-submit">Ngày đăng: 14-05-2020</span><br />
                 </li>
-            </ul>   
-            <a href="#" style="float:right; margin: 0 10px 5px 0; font-size:13px;">Xem thêm</a>
+            </ul>  
+           
         </div>
-        <div class="main-notify clear-fix">
-            <div class="box-login__title">
-                <span>THANH TOÁN HỌC PHÍ ONLINE</span>
+         <div class="pagination">
+                <a href="#">&laquo; Trước</a>
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#">6</a>
+                <a href="#">7</a>
+                <a href="#">Sau &raquo;</a>
             </div>
-            <ul class="tb-action">
-                <li>
-                    <a href="#">Những điều cần biết về thẻ sinh viên liên kết ngân hàng</a><br />
-                    <span class="date-submit">Ngày đăng: 15-04-2020</span>
-                </li>
-                <li>
-                    <a href="#">Hướng dẫn nộp học phí</a><br />
-                    <span class="date-submit">Ngày đăng: 15-04-2020</span>
-                </li>
-            </ul>   
-            <a href="#" style="float:right; margin: 0 10px 5px 0; font-size:13px;">Xem thêm</a>
-        </div>
     </div>
 </asp:Content>

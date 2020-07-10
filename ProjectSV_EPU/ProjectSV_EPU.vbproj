@@ -100,6 +100,10 @@
     <Content Include="bootstrap-3.3.7-dist\js\bootstrap.js" />
     <Content Include="bootstrap-3.3.7-dist\js\bootstrap.min.js" />
     <Content Include="bootstrap-3.3.7-dist\js\npm.js" />
+    <Content Include="Contentpage\DaoTao.aspx" />
+    <Content Include="Contentpage\GioiThieu.aspx" />
+    <Content Include="Contentpage\SVCanBiet.aspx" />
+    <Content Include="Contentpage\ThongBao.aspx" />
     <Content Include="Contentpage\ThongtinSV.aspx" />
     <Content Include="Contentpage\Trangchu.aspx" />
     <Content Include="css\font-awesome-4.7.0\css\font-awesome.css" />
@@ -116,11 +120,40 @@
     <Content Include="img\homqua.png" />
     <Content Include="img\infoSV.PNG" />
     <Content Include="img\khach.png" />
+    <Content Include="img\new.gif" />
     <Content Include="img\tongcong.png" />
     <Content Include="js\jstest.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contentpage\DaoTao.aspx.designer.vb">
+      <DependentUpon>DaoTao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contentpage\DaoTao.aspx.vb">
+      <DependentUpon>DaoTao.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Contentpage\GioiThieu.aspx.designer.vb">
+      <DependentUpon>GioiThieu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contentpage\GioiThieu.aspx.vb">
+      <DependentUpon>GioiThieu.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Contentpage\SVCanBiet.aspx.designer.vb">
+      <DependentUpon>SVCanBiet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contentpage\SVCanBiet.aspx.vb">
+      <DependentUpon>SVCanBiet.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Contentpage\ThongBao.aspx.designer.vb">
+      <DependentUpon>ThongBao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contentpage\ThongBao.aspx.vb">
+      <DependentUpon>ThongBao.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Contentpage\ThongtinSV.aspx.designer.vb">
       <DependentUpon>ThongtinSV.aspx</DependentUpon>
     </Compile>
